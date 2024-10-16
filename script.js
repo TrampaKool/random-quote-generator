@@ -1,4 +1,3 @@
-const API_KEY = "Il0WiM4zKuksoGaIN5epXQ==SsiTaU4acyuLrWLP";
 const API_URL = "https://api.api-ninjas.com/v1/quotes";
 const { useState, useEffect } = React;
 
@@ -13,7 +12,7 @@ const QuoteWindow = () => {
     setError(false);
     try {
       const response = await fetch(API_URL, {
-        headers: { "X-Api-Key": API_KEY } });
+        headers: { "X-Api-Key": config.API_KEY } });
 
       if (!response.ok) {
         throw new Error("Error while fetching quote!");
