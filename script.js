@@ -37,7 +37,7 @@ const QuoteWindow = () => {
   return /*#__PURE__*/(
     React.createElement("div", {
       style: { minHeight: "450px", borderRadius: "30px" },
-      className: "d-flex flex-column align-items-center justify-content-between col-12 col-lg-6 col-md-8 col-sm-10 mx-auto p-4 text-center border shadow bg-white" }, /*#__PURE__*/
+      className: "d-flex flex-column align-items-center justify-content-between col-12 col-lg-6 col-md-8  mx-auto p-4 text-center border shadow bg-white" }, /*#__PURE__*/
 
     React.createElement("div", { className: "w-100 my-auto" },
     error ? /*#__PURE__*/
