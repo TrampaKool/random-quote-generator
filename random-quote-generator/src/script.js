@@ -52,7 +52,7 @@ const QuoteWindow = () => {
 					<>
 						<p
 							className={
-								"fw-bold text-transition " + (loading ? "fade-out" : "fade-in")
+								"fw-bold text-transition fs-4 " + (loading ? "fade-out" : "fade-in")
 							}
 						>
 							{quote}
